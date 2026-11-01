@@ -1,0 +1,620 @@
+{
+  "format": "dave-food-catalog-v1",
+  "revision": "2d709f99cbb6a7f9c292bcfafe1fa3cc5536d340e49fb37b59a55915f4cff666",
+  "publishedAt": "2026-11-01T09:58:30.166639+00:00",
+  "products": 182174,
+  "totalBytes": 28069143,
+  "source": {
+    "name": "Open Food Facts contributors",
+    "url": "https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz",
+    "licence": "ODbL 1.0; individual contents DbCL 1.0"
+  },
+  "files": [
+    {
+      "name": "products-00.json.bin",
+      "bytes": 292645,
+      "sha256": "3f97ac49e5757c55dc2713ff437d90276cb973869ede2cb2a9c382aee3fab476",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-00.json.bin"
+    },
+    {
+      "name": "products-01.json.bin",
+      "bytes": 283818,
+      "sha256": "88747d8409fc5b31e6fb686ec37eda12fcca29baa25cdb38ebae591efc8f578c",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-01.json.bin"
+    },
+    {
+      "name": "products-02.json.bin",
+      "bytes": 284660,
+      "sha256": "a46b28f1e77cdbaf80ed74f36d2401dac72098fc71d4451b76af5536ad6ae404",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-02.json.bin"
+    },
+    {
+      "name": "products-03.json.bin",
+      "bytes": 271226,
+      "sha256": "516f6e23b3b474342e82a7fc7c4138ad2670a6d01315d4534f8f978321f177e1",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-03.json.bin"
+    },
+    {
+      "name": "products-04.json.bin",
+      "bytes": 276461,
+      "sha256": "a06476808674c05f7102319ad6a24b48739fd2a4af5ad9080889ceb35dfd0777",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-04.json.bin"
+    },
+    {
+      "name": "products-05.json.bin",
+      "bytes": 270887,
+      "sha256": "fc0b3c3ab287c9b0bf908b6dfec62d969ea5606b5ae541371f5fe6c885c0f98e",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-05.json.bin"
+    },
+    {
+      "name": "products-06.json.bin",
+      "bytes": 275084,
+      "sha256": "64e937a3cfc2bf4cf60eb80327d1a835b6429d42cf8e8c8a0347e31c3acd2334",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-06.json.bin"
+    },
+    {
+      "name": "products-07.json.bin",
+      "bytes": 277246,
+      "sha256": "9b364d6fd2cc240e36fbdbf0570ce6a17c84ab86b28c24ee286a9ee1ba73c835",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-07.json.bin"
+    },
+    {
+      "name": "products-08.json.bin",
+      "bytes": 274083,
+      "sha256": "48089438aa89eb3737212f76945901e7932166467b4b37b0eb45e045ceef1c99",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-08.json.bin"
+    },
+    {
+      "name": "products-09.json.bin",
+      "bytes": 266432,
+      "sha256": "7d3e930a1bf94e002c75243794f9c9c5346598a246a206c1fd201a738970ab37",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-09.json.bin"
+    },
+    {
+      "name": "products-10.json.bin",
+      "bytes": 253575,
+      "sha256": "ceba9909bdbd9bde34633d7abfe42a01d3043d0485e8580c8bcbab1c0a8c8478",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-10.json.bin"
+    },
+    {
+      "name": "products-11.json.bin",
+      "bytes": 249022,
+      "sha256": "72012320ace40294421ccfcbcc3421e54521a92bac67cdc96b7771cba120f57d",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-11.json.bin"
+    },
+    {
+      "name": "products-12.json.bin",
+      "bytes": 264754,
+      "sha256": "0823d220aedb9c89540bdca8e93f939fc4037dc519adb6e487297d7d799c9021",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-12.json.bin"
+    },
+    {
+      "name": "products-13.json.bin",
+      "bytes": 258595,
+      "sha256": "34c66a48f3f16de5765c554f195bdf860a5f48506ca0e82a65ee37fdb9d7b4c9",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-13.json.bin"
+    },
+    {
+      "name": "products-14.json.bin",
+      "bytes": 262437,
+      "sha256": "66380c67d2a6ffb718a2848dc17130caad614e129046b946a2335f6a61569e7b",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-14.json.bin"
+    },
+    {
+      "name": "products-15.json.bin",
+      "bytes": 269946,
+      "sha256": "5dadc9bd4b9c6be4040c0cb57988086dc2fc3bf015a0285ad6379a258f059ece",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-15.json.bin"
+    },
+    {
+      "name": "products-16.json.bin",
+      "bytes": 259406,
+      "sha256": "2e2a9970df24f879d9e639446dc7d8b990fc6990688c56ddfc13fede99c0dba2",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-16.json.bin"
+    },
+    {
+      "name": "products-17.json.bin",
+      "bytes": 264461,
+      "sha256": "91b40c373e3709ad512a0d78fa52dd4e653157bb3f87227f3a5a92d5231b0e68",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-17.json.bin"
+    },
+    {
+      "name": "products-18.json.bin",
+      "bytes": 257315,
+      "sha256": "18deb95273b8a085620815a2d057a41590255574474001e1721f9e803fde229e",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-18.json.bin"
+    },
+    {
+      "name": "products-19.json.bin",
+      "bytes": 243661,
+      "sha256": "122a0b7c4baf22524155bd775c96baa17b82e140ec6a1978bd6889a4db8c0cb4",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-19.json.bin"
+    },
+    {
+      "name": "products-20.json.bin",
+      "bytes": 247174,
+      "sha256": "fe7c09eee9d2e05ac74b74954614dd382b1fa0e6273ae8bc08df0f66ba328ac2",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-20.json.bin"
+    },
+    {
+      "name": "products-21.json.bin",
+      "bytes": 244949,
+      "sha256": "611c0c588f231494132741a43da560a0e490124bd357d75c8fd4101263b68040",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-21.json.bin"
+    },
+    {
+      "name": "products-22.json.bin",
+      "bytes": 246741,
+      "sha256": "0bcbb8c65d6b2fc09a43b376031222402186eac92f6b077acc58d4e1375ede9f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-22.json.bin"
+    },
+    {
+      "name": "products-23.json.bin",
+      "bytes": 246905,
+      "sha256": "7a2995bc24878cc2fa58fbbf0a2f4886f356aad588fe08c90c606589da3ffc29",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-23.json.bin"
+    },
+    {
+      "name": "products-24.json.bin",
+      "bytes": 239310,
+      "sha256": "8b1b4255ce63edbb63cf8889afd1ad8d5d50728479c7cbf65f372df65c559180",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-24.json.bin"
+    },
+    {
+      "name": "products-25.json.bin",
+      "bytes": 244249,
+      "sha256": "88aeb61fbb3a364cccaecd52f97d280ad0f1cb6c29c0ef7b3fd362df5ae88cc9",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-25.json.bin"
+    },
+    {
+      "name": "products-26.json.bin",
+      "bytes": 243334,
+      "sha256": "11e7b89eaf6915c9b149a22c9dc904a2e1fed78afc148f75aa5a25f0793a7ea8",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-26.json.bin"
+    },
+    {
+      "name": "products-27.json.bin",
+      "bytes": 236004,
+      "sha256": "3895558799d67ece35c9f67d8f001ff0b36da98e5c95b85f5e3c889d98a0324c",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-27.json.bin"
+    },
+    {
+      "name": "products-28.json.bin",
+      "bytes": 248481,
+      "sha256": "90e49a71b426d5b78063bf4b9ac4a58924dddb75c80bd5a9ba165e04120f1eff",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-28.json.bin"
+    },
+    {
+      "name": "products-29.json.bin",
+      "bytes": 241497,
+      "sha256": "2714bf32d7eb2acf9e5a8e1a674ce919bd0352ccff601bb26dd0dc4304174c2f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-29.json.bin"
+    },
+    {
+      "name": "products-30.json.bin",
+      "bytes": 238910,
+      "sha256": "8cc40688281a0a7bde84d47041a32ecc5270e89e08848b6c8168caa01a402917",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-30.json.bin"
+    },
+    {
+      "name": "products-31.json.bin",
+      "bytes": 235662,
+      "sha256": "7f526b4708b2e7fde91de0ef06bf2988309d5e25ece7695490abeaa05633f8a7",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-31.json.bin"
+    },
+    {
+      "name": "products-32.json.bin",
+      "bytes": 242257,
+      "sha256": "8f620c6ac604bc04ef7e6be928cad5c001db7169d5f3991125f661c293df838f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-32.json.bin"
+    },
+    {
+      "name": "products-33.json.bin",
+      "bytes": 235111,
+      "sha256": "651bed303117d2f1027462a1b80868edf9e79643e19c51664ce68d7ae53f7d89",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-33.json.bin"
+    },
+    {
+      "name": "products-34.json.bin",
+      "bytes": 245163,
+      "sha256": "18e41443cae98709f3328ea499886f68e35b31cca2118157a91acff81037d8ba",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-34.json.bin"
+    },
+    {
+      "name": "products-35.json.bin",
+      "bytes": 244505,
+      "sha256": "b9317671b1b017241739fd98eed3ee0a1af95cc8d8c6218bbea9d11c29c1c7ef",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-35.json.bin"
+    },
+    {
+      "name": "products-36.json.bin",
+      "bytes": 243728,
+      "sha256": "0fb1bf251eec91a750007cd9e6cfb19c6cf68e186e3717e06520f1437ab5c923",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-36.json.bin"
+    },
+    {
+      "name": "products-37.json.bin",
+      "bytes": 238668,
+      "sha256": "d1f1e0161b90c79ef770196eb8e38a6b3ac65991ab191c57c6f2cce25871510f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-37.json.bin"
+    },
+    {
+      "name": "products-38.json.bin",
+      "bytes": 235411,
+      "sha256": "1f6b64b00f69b429b981107892dfbde1d736145527e663f3a76b3f990e8608ac",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-38.json.bin"
+    },
+    {
+      "name": "products-39.json.bin",
+      "bytes": 238140,
+      "sha256": "d1618b8f38081a6fe2f9d0890ca6cb909908deaf42a55ca77fd10bcc1294e6bd",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-39.json.bin"
+    },
+    {
+      "name": "products-40.json.bin",
+      "bytes": 216760,
+      "sha256": "734aeeccef8083ceb52980cc8c37492b8f537bf181c20c8a9c5b748be9c926c7",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-40.json.bin"
+    },
+    {
+      "name": "products-41.json.bin",
+      "bytes": 232657,
+      "sha256": "9c7a43ae92ea2e12fbfc3aaec14ac56d40b4b743fcf1fb5747ce04b9b1bdd16b",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-41.json.bin"
+    },
+    {
+      "name": "products-42.json.bin",
+      "bytes": 237998,
+      "sha256": "a0cce714aa11cf2c666e7df844c149094e4e2448cf05c2369c2d9648cd2ab8ac",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-42.json.bin"
+    },
+    {
+      "name": "products-43.json.bin",
+      "bytes": 230308,
+      "sha256": "4fea8d50a89efda1825ca5a1b92d3ee40e3b8b99ba5d82e096cd4663a0cbcd7f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-43.json.bin"
+    },
+    {
+      "name": "products-44.json.bin",
+      "bytes": 240275,
+      "sha256": "b8b4ed951eb762f95cb951c70a06e122438629f63ddcfec34787e29a811b0503",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-44.json.bin"
+    },
+    {
+      "name": "products-45.json.bin",
+      "bytes": 240515,
+      "sha256": "a7c613a31cdeaec1e0b97be41f5023146d84dcc0ea61f698bf84005762c7ccb1",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-45.json.bin"
+    },
+    {
+      "name": "products-46.json.bin",
+      "bytes": 249361,
+      "sha256": "bd1ab447720687048a5e4740ebe8932a1426442385a0b2aa654ce056de543577",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-46.json.bin"
+    },
+    {
+      "name": "products-47.json.bin",
+      "bytes": 224735,
+      "sha256": "40750212d2c3e7c549b1087118fd8a67e671e4cc70b9a983c7a807c5b7490130",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-47.json.bin"
+    },
+    {
+      "name": "products-48.json.bin",
+      "bytes": 229425,
+      "sha256": "1bfae8847b29f43bd9a6c778664916d993213df41a9b72e4125b78996d7aebe6",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-48.json.bin"
+    },
+    {
+      "name": "products-49.json.bin",
+      "bytes": 237273,
+      "sha256": "6c5f6288ae5f7f2f28587f492d48d030e4da307606ea4fcd4ea9c222bb7b7dd8",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-49.json.bin"
+    },
+    {
+      "name": "products-50.json.bin",
+      "bytes": 234407,
+      "sha256": "d3bb51eb07d8dd8e04f827572160ddfe75199c022cfbc5304dd5cfcb3491897c",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-50.json.bin"
+    },
+    {
+      "name": "products-51.json.bin",
+      "bytes": 242970,
+      "sha256": "3f206bb41702db71ef018337c8ab8ae987b1c4c8f7bd8db3c2d56fd3bb2ca880",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-51.json.bin"
+    },
+    {
+      "name": "products-52.json.bin",
+      "bytes": 233661,
+      "sha256": "bd14bbebba8facb2f36b906d56c5679e5e45531a2e3b7befa5ddf26f0ade4e84",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-52.json.bin"
+    },
+    {
+      "name": "products-53.json.bin",
+      "bytes": 248604,
+      "sha256": "fcf2727e58b10e9be4ac1ac500b4df821ab19427998a85b28d26f83eb825520f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-53.json.bin"
+    },
+    {
+      "name": "products-54.json.bin",
+      "bytes": 234235,
+      "sha256": "bbbb1ea914da3513dae6cba07da77fc947b60b45a95f74966c28742279012ad1",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-54.json.bin"
+    },
+    {
+      "name": "products-55.json.bin",
+      "bytes": 233204,
+      "sha256": "880006727e4aa09c70c15b6d3c6287d1ccfff47119f938d00162f230581cd166",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-55.json.bin"
+    },
+    {
+      "name": "products-56.json.bin",
+      "bytes": 246267,
+      "sha256": "f8fdeabc621c4a990436c6185c43c0736d052e64cab699e06d804c0dd2179191",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-56.json.bin"
+    },
+    {
+      "name": "products-57.json.bin",
+      "bytes": 234466,
+      "sha256": "6f833fc52cb3cfd2601d922a984787a05048d698910db80e9118864e0835117e",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-57.json.bin"
+    },
+    {
+      "name": "products-58.json.bin",
+      "bytes": 240793,
+      "sha256": "e7cac538a6d200086ba0634e88b6b8691b2fe05507601606c5c29a3d7044acb8",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-58.json.bin"
+    },
+    {
+      "name": "products-59.json.bin",
+      "bytes": 249920,
+      "sha256": "54eb1f661f33bc7c565b3a2c126185587a6a0030c2729cb53aa6633ae3500096",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-59.json.bin"
+    },
+    {
+      "name": "products-60.json.bin",
+      "bytes": 240974,
+      "sha256": "8ae44d38fd1ad2a71dfa54814c8ddd6acaca96ab9f4da22e283826c51ca4896d",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-60.json.bin"
+    },
+    {
+      "name": "products-61.json.bin",
+      "bytes": 233197,
+      "sha256": "13a238462c1dc9a8245942d3fa89c78a6b215d5b4ddf471f110e4e25b1fafd76",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-61.json.bin"
+    },
+    {
+      "name": "products-62.json.bin",
+      "bytes": 229831,
+      "sha256": "3ec8757787cae9a82d74bd6f6f9bd9d8327f248d44fb75e1da43e4d2c5176797",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-62.json.bin"
+    },
+    {
+      "name": "products-63.json.bin",
+      "bytes": 226981,
+      "sha256": "20db68fd1c9b83f06e16cab41c906e0cb2b517696b91b35a94d76ed32211d656",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-63.json.bin"
+    },
+    {
+      "name": "products-64.json.bin",
+      "bytes": 220018,
+      "sha256": "873966c09f58b1854feb2df4898958a17da7d4e9c38a731d0934e9ead57c029f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-64.json.bin"
+    },
+    {
+      "name": "products-65.json.bin",
+      "bytes": 231022,
+      "sha256": "c380d44ad71a36a7808c3ed94c2a007307e6352b9024b3b968195cd003ce3e67",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-65.json.bin"
+    },
+    {
+      "name": "products-66.json.bin",
+      "bytes": 244196,
+      "sha256": "895a8e32f670a6ed7b798f32d6d29a2348e57304d948789c3fa06fb1779a4cfd",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-66.json.bin"
+    },
+    {
+      "name": "products-67.json.bin",
+      "bytes": 233006,
+      "sha256": "03cb3f147357df3cecf560df495dca42494d062b2f314e8eef37d05ebfdcdaff",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-67.json.bin"
+    },
+    {
+      "name": "products-68.json.bin",
+      "bytes": 235357,
+      "sha256": "d0a80bb5d5a9bb1ab103e4384c41e075a806d7ff583451a0cd98e6d1704e4a85",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-68.json.bin"
+    },
+    {
+      "name": "products-69.json.bin",
+      "bytes": 230027,
+      "sha256": "6d0cd797051f3e33824d551197d51d74ce170daef7f968672513d55873778ac7",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-69.json.bin"
+    },
+    {
+      "name": "products-70.json.bin",
+      "bytes": 227702,
+      "sha256": "c401a10bce2b3ebbe9fa73a3d8388bab884e3d0af483d9c8c26081c26116fbd6",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-70.json.bin"
+    },
+    {
+      "name": "products-71.json.bin",
+      "bytes": 228140,
+      "sha256": "f85db7f232308a88deba5b843f3a0852eb2259e961183eabd8d11f5ad15ea73e",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-71.json.bin"
+    },
+    {
+      "name": "products-72.json.bin",
+      "bytes": 232106,
+      "sha256": "94392d7ec9676330fc354b41ec177628993c9770ed63ee4dc712f4081ff212e4",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-72.json.bin"
+    },
+    {
+      "name": "products-73.json.bin",
+      "bytes": 230424,
+      "sha256": "fb5b55d7683672266bf1685338c622c95448fc044793805b41e84672d513d129",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-73.json.bin"
+    },
+    {
+      "name": "products-74.json.bin",
+      "bytes": 221990,
+      "sha256": "ee7347dd58e781362241ba22d4ccfb63a08c1ec430482935685aff32a7164208",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-74.json.bin"
+    },
+    {
+      "name": "products-75.json.bin",
+      "bytes": 226783,
+      "sha256": "24422669c0fce977766018c3de07d35ad54b792198cc50f10cc3f1ad73fbd578",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-75.json.bin"
+    },
+    {
+      "name": "products-76.json.bin",
+      "bytes": 225327,
+      "sha256": "5578bded14107cecc9eac392cc43067b0dcaf4fbe15e8150a52fe90a188284a9",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-76.json.bin"
+    },
+    {
+      "name": "products-77.json.bin",
+      "bytes": 231544,
+      "sha256": "733e76e7ea9c11599aa3c4ba702d5acba89a5825e65c6b633df5f90b8674b00d",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-77.json.bin"
+    },
+    {
+      "name": "products-78.json.bin",
+      "bytes": 232581,
+      "sha256": "d439fd98987fe7241af1198b9372140a22770e7c90d34367bd91ff95619d12c9",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-78.json.bin"
+    },
+    {
+      "name": "products-79.json.bin",
+      "bytes": 222348,
+      "sha256": "a8a2af1645fc84159e7288e24487d1eef742588699d0783f58e67eaade37a421",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-79.json.bin"
+    },
+    {
+      "name": "products-80.json.bin",
+      "bytes": 231301,
+      "sha256": "d30e510a16c239aece7ebc7af8f592551d51389641aa0eb3f5eb3b7cd3ddd2ef",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-80.json.bin"
+    },
+    {
+      "name": "products-81.json.bin",
+      "bytes": 228755,
+      "sha256": "efa61f1f6c419814b366d177d953d84e557d7100596bb0a139e08127e5aa62a3",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-81.json.bin"
+    },
+    {
+      "name": "products-82.json.bin",
+      "bytes": 228640,
+      "sha256": "55375919ff3642655f6ec81f3a33d6b1712572168047d0f44c9d1cbbae9535f3",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-82.json.bin"
+    },
+    {
+      "name": "products-83.json.bin",
+      "bytes": 240206,
+      "sha256": "229549d0cee412127b18a70b419209c1be7d4af58fe1e2d8e34708d6ae1c54dd",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-83.json.bin"
+    },
+    {
+      "name": "products-84.json.bin",
+      "bytes": 231784,
+      "sha256": "2ce45dae4718ea71b44a013916e4ff3ff8e1f4c9935d147b9e2f66d6faff0159",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-84.json.bin"
+    },
+    {
+      "name": "products-85.json.bin",
+      "bytes": 211528,
+      "sha256": "187939c87643e60e0ee737d7a30f99998dbb8292719b13c30f2b8126035f8a54",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-85.json.bin"
+    },
+    {
+      "name": "products-86.json.bin",
+      "bytes": 235030,
+      "sha256": "4711a3848dee4b180911519f4a545137dd188a925629cada6a1df2c92a8f45ac",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-86.json.bin"
+    },
+    {
+      "name": "products-87.json.bin",
+      "bytes": 228181,
+      "sha256": "603866f346d3d9a27de4b9aa03cf34bd6aeaec9525346246d088cdbe0dcd2de2",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-87.json.bin"
+    },
+    {
+      "name": "products-88.json.bin",
+      "bytes": 215163,
+      "sha256": "f5f5a5dbdd7ae340c8b2c4a56429ed818164d631575d9f2d47a4f080151464e7",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-88.json.bin"
+    },
+    {
+      "name": "products-89.json.bin",
+      "bytes": 222171,
+      "sha256": "cb363633ccc4cf61dfb2a909b3e6a4e36e39ae5ac233e920c52aa52b4b2bc092",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-89.json.bin"
+    },
+    {
+      "name": "products-90.json.bin",
+      "bytes": 234114,
+      "sha256": "d027fa8cd3e96eea98da26205d91976e36917ac51bc536dba2903afa1edf0f73",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-90.json.bin"
+    },
+    {
+      "name": "products-91.json.bin",
+      "bytes": 238213,
+      "sha256": "b9e89916e3a30499349373f492207876ce4a28293eea219de8ad750087bf9b7c",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-91.json.bin"
+    },
+    {
+      "name": "products-92.json.bin",
+      "bytes": 227954,
+      "sha256": "b752b5c5f230cfa3c9bd119d594a6c0c9b87b9d2a668b767c0133fd0db43e9df",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-92.json.bin"
+    },
+    {
+      "name": "products-93.json.bin",
+      "bytes": 233853,
+      "sha256": "ab754afebc445580ac58233c7938491d8c12f199e2237a9dc5aeec469146b618",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-93.json.bin"
+    },
+    {
+      "name": "products-94.json.bin",
+      "bytes": 229382,
+      "sha256": "9e55402707d6f6c352b30dbefbca5409c655aa4e0aac3fa692b48f7aa4a9ce66",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-94.json.bin"
+    },
+    {
+      "name": "products-95.json.bin",
+      "bytes": 233034,
+      "sha256": "a1e126526b5108805fa416ade2d285a17882d71d1cc268b74280a348cdddc65f",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-95.json.bin"
+    },
+    {
+      "name": "products-96.json.bin",
+      "bytes": 216677,
+      "sha256": "5b0549a821762a0a1930bbe2b8b49b69b54cc07cd5b3f35b89ad1eb871225a2d",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-96.json.bin"
+    },
+    {
+      "name": "products-97.json.bin",
+      "bytes": 228699,
+      "sha256": "248646d3c43ab7d14b43b636820428842fa0b13e094502b947d0e9a69682a592",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-97.json.bin"
+    },
+    {
+      "name": "products-98.json.bin",
+      "bytes": 218727,
+      "sha256": "7274b180e244c1dfe3901c339d7ed462d42a9064a3b47c117bcd78992995f02e",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-98.json.bin"
+    },
+    {
+      "name": "products-99.json.bin",
+      "bytes": 222987,
+      "sha256": "5b99cf4b684245a69386aaefc20d5a738d11b4aca3117518b7ff1beed75d2d1b",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/products-99.json.bin"
+    },
+    {
+      "name": "index.json.bin",
+      "bytes": 3979443,
+      "sha256": "22c1f977612328d45816f86fe0ce02baf0818050b40f7f539c385d3172ad5e1a",
+      "url": "https://github.com/Aidreaming/DAVE-APK/releases/download/food-2d709f99cbb6a7f9/index.json.bin"
+    }
+  ]
+}
