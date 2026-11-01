@@ -1,0 +1,56 @@
+name: Publish public UK food updates
+on:
+  push:
+    branches: [main]
+    paths: ['food-data/build.py', '.github/workflows/food-data.yml']
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: public-food-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare public UK subset
+        id: food
+        run: python food-data/build.py
+      - name: Publish immutable attributed data
+        env:
+          FOOD_TAG: ${{ steps.food.outputs.tag }}
+        run: |
+          if ! gh release view "$FOOD_TAG" >/dev/null 2>&1; then
+            gh release create "$FOOD_TAG" food-output/* --target "$GITHUB_SHA" --prerelease --title "DAVE UK food database" --notes "Public UK text subset of Open Food Facts. ODbL 1.0 / DbCL 1.0; see ATTRIBUTION.txt. No user data, health profiles or app source."
+          fi
+          gh api "repos/$GH_REPO/releases/tags/$FOOD_TAG" > /tmp/food-release.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          catalog=json.loads(Path('food-output/catalog.json').read_text())
+          release=json.loads(Path('/tmp/food-release.json').read_text())
+          assets={a['name']:a for a in release['assets']}
+          for f in catalog['files']:
+              assert assets[f['name']]['size']==f['bytes'] and assets[f['name']]['state']=='uploaded'
+              digest=assets[f['name']].get('digest')
+              assert not digest or digest=='sha256:'+f['sha256']
+          PY
+      - name: Point phones at complete verified release
+        run: |
+          gh api "repos/$GH_REPO/contents/food-data/catalog.json" > /tmp/previous-catalog.json 2>/dev/null || printf '{}' > /tmp/previous-catalog.json
+          python - <<'PY'
+          import base64,json
+          from pathlib import Path
+          previous=json.loads(Path('/tmp/previous-catalog.json').read_text())
+          payload={'message':'Publish verified UK food catalogue','branch':'main','content':base64.b64encode(Path('food-output/catalog.json').read_bytes()).decode()}
+          if previous.get('sha'): payload['sha']=previous['sha']
+          Path('/tmp/catalog-request.json').write_text(json.dumps(payload))
+          PY
+          gh api --method PUT "repos/$GH_REPO/contents/food-data/catalog.json" --input /tmp/catalog-request.json
